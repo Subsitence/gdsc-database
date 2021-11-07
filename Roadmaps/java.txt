@@ -1,0 +1,57 @@
+Java Roadmap translated by Hoang Xuan Viet
+
+1. Cơ bản
+	Cú pháp
+	Kiểu Dữ liệu, Biến
+	Điều kiện
+	Hàm
+	Vòng lặp
+	Xử lí Exception
+	Cấu trúc Dữ liệu
+	OOP, Interface, Class
+	Package
+	Files và APIs
+2. Nâng cao
+	Quản lí Bộ nhớ
+	Collection
+	Serialization
+	Networking và Sockets
+	Generics
+	Máy ảo Java (JVM)
+	Thu gom Rác
+	Cơ bản về Threads
+	Streams
+3. Các Công cụ Build
+	Gradle
+	Maven
+	Ant
+4. Web Frameworks
+	Spring
+	Spring Boot
+	Play Framework
+	Spark
+5. Object-Relational Mapping ORM
+	Java Persistence API
+	Spring Data JPA
+	Hibernate
+	EBean
+6. Logging Frameworks
+	Logback
+	Log4j2
+	TinyLog
+7. Java database connectivity JDBC
+	JDBI3
+	JDBC Template
+8. Kiểm thử
+	Mocking
+		Mockito
+	Behavior Test
+		Cucumber-JVM
+		Cukes
+		JBehave
+	Unit Test
+		JUnit
+		TestNG
+	Integration Test
+		REST Assured
+		JMeter

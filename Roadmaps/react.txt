@@ -1,0 +1,66 @@
+React Roadmap translated by The Manh
+
+1. Cơ bản
+    create-react-app
+    JSX
+    Components
+        Functional components
+        Class components
+    Props và State
+    Conditional Rendering
+    Vòng đời Component
+    Lists và Keys
+    Composition và Inheritance
+    Hooks cơ bản
+2. Nâng cao
+    Hooks
+        useCallback
+        useRef
+        useMemo
+        useReducer
+        useContext
+        Custom Hooks
+    Context
+    Refs
+    Render Props
+    Higher-Order Component
+    Portal
+    Error Boundaries
+    Fiber Architecture
+3. Hệ sinh thái React
+    Routers
+        React Router
+        Reach Router
+    Server-side Rendering
+        NextJS
+    Static site Generator
+        Next.js
+        Gatsby
+    Gọi API
+        react-query
+        use-http
+        Apollo
+        Relay Modern
+        Axios
+        Unfetch
+        superagent
+    Mobile
+        React Native
+    Forms
+        React Hook Form
+        Formik
+        Final Form
+    Kiểm thử
+        Jest
+        Thư viện Kiểm thử của React
+        Cypress
+    Quản lý State
+        Context, State
+        Redux
+        MobX
+    Styling
+        Styled Components
+        Chakra UI
+        Material UI
+        Ant Design
+        Emotion
