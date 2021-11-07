@@ -59,6 +59,7 @@ ans = prefixSum[v] - prefixSum[u - 1];
     <p>Kết quả của truy vấn <code>(u, v)</code> là kết quả của phép tính <code>prefixSum[u] - prefixSum[v - 1]</code>.
     </p>
 
+    <figure>
     <img
             src="https://i.postimg.cc/Jn3jN01V/7.png"
             alt="Mô tả trực quan bằng hình ảnh"
@@ -102,6 +103,7 @@ for(int i = 1; i <= n; i++)
         đi <code>k</code> đơn vị.</p>
     <p>Bước 3: Thực hiện tổng tích lũy trên mảng <code>t</code> như ví dụ 1.</p>
     <p>Bước 4: Ta có kết quả của từng giá trị của mảng mới là <code>arr[i] += t[i]</code>.</p>
+    <figure>
     <img
             src="https://i.postimg.cc/NfXBpH3H/9.png"
             alt="Mô tả trực quan bằng hình ảnh"
@@ -222,11 +224,12 @@ for(int i = 1; i <= n; i++)
             t[x + 1][y + 1] += k;</code></p>
     <p>Tham khảo ảnh minh họa sau:</p>
 
-    <img
-            src="https://i.postimg.cc/8z1MhMc1/10.png"
-            alt="Mô tả trực quan bằng hình ảnh"
-    />
-    <figcaption>Khởi tạo mảng phụ t[][]</figcaption>
+    <figure>
+        <img
+                src="https://i.postimg.cc/8z1MhMc1/10.png"
+                alt="Mô tả trực quan bằng hình ảnh"
+        />
+        <figcaption>Khởi tạo mảng phụ t[][]</figcaption>
     </figure>
     <p>Bước 2: Tính tổng cộng dồn trên mảng <code>t[][]</code>.</p>
     <p>Bước 3: Kết quả của từng phần tử trong mảng được tính theo công thức: <code>arr[i][j] += prefixSum[i][j]</code>
